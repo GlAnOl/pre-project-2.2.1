@@ -52,9 +52,9 @@ public class MainApp {
         }
 
 
-        List<Object[]> users2 = userService.getUserByModelAndSeries("model3", 3);
-        for (Object[] user : users2) {
-            System.out.println(Arrays.toString(user));
+        List<User> users2 = userService.getUserByModelAndSeries("model3", 3);
+        for (User user : users2) {
+            System.out.println(user);
         }
 
 

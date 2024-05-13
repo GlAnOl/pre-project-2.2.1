@@ -12,5 +12,5 @@ public interface UserService {
 
     void addCar(Car car);
 
-    List<Object[]> getUserByModelAndSeries(String model, int series);
+    List<User> getUserByModelAndSeries(String model, int series);
 }
